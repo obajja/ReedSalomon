@@ -122,7 +122,6 @@ func vecSz(nRows int, nCols int) int {
 	return 0
 }
 
-//matrix vector multiplication uint64
 func matrixVectorMultiplication(A [P - 1][K]uint64, x []uint64, y []uint64) {
 	for i := 0; i < P-1; i++ {
 		y[i] = 0
