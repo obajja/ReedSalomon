@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-const P = 7  //prime number (
+const P = 7  //prime number 
 const K = 5  // number of columns (size of the word)
 const R = 10 // size of the vector
 
